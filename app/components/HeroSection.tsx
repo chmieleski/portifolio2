@@ -30,8 +30,8 @@ const HeroSection = () => {
 				<div className="max-w-3xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-12 px-2">
 					{[
 						{
-							label: 'Apps Published',
-							value: '12+',
+							label: 'Apps Publicados',
+							value: '100+',
 							icon: (
 								<svg className="w-8 h-8 text-blue-400" viewBox="0 0 24 24" fill="currentColor">
 									<path d="M17,1H7A2,2 0 0,0 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3A2,2 0 0,0 17,1M17,19H7V5H17V19M16,13H8V11H16V13M16,9H8V7H16V9M7,24H9V22H7V24M11,24H13V22H11V24M15,24H17V22H15V24" />
@@ -39,7 +39,7 @@ const HeroSection = () => {
 							),
 						},
 						{
-							label: 'Total Downloads',
+							label: 'Total de Downloads',
 							value: '1M+',
 							icon: (
 								<svg className="w-8 h-8 text-purple-400" viewBox="0 0 24 24" fill="currentColor">
@@ -48,7 +48,7 @@ const HeroSection = () => {
 							),
 						},
 						{
-							label: 'App Rating',
+							label: 'Nota de Aplicativo',
 							value: '4.8',
 							icon: (
 								<svg className="w-8 h-8 text-yellow-400" viewBox="0 0 24 24" fill="currentColor">
@@ -57,7 +57,7 @@ const HeroSection = () => {
 							),
 						},
 						{
-							label: 'Countries',
+							label: 'Países',
 							value: '150+',
 							icon: (
 								<svg className="w-8 h-8 text-green-400" viewBox="0 0 24 24" fill="currentColor">
@@ -115,16 +115,16 @@ const HeroSection = () => {
 								<div className="flex justify-center">
 									<div className="inline-flex items-center gap-1.5 px-4 py-1 rounded-full bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 group-hover:border-blue-400/30 transition-colors">
 										<span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse"></span>
-										<span className="text-blue-400 text-sm font-medium">Featured App</span>
+										<span className="text-blue-400 text-sm font-medium">Projeto Atual</span>
 									</div>
 								</div>
 
 								{/* App Info */}
 								<div className="text-center mt-6">
 									<h3 className="text-2xl font-bold mb-2 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent group-hover:from-blue-400 group-hover:to-purple-400 transition-all duration-300">
-										FitTracker Pro
+										MixHalo
 									</h3>
-									<p className="text-gray-400 mb-6 group-hover:text-gray-300 transition-colors">Your Personal Fitness Companion</p>
+									<p className="text-gray-400 mb-6 group-hover:text-gray-300 transition-colors">Aplicativo de Mixagem de Músicas</p>
 
 									{/* Stats Grid */}
 									<div className="grid grid-cols-3 gap-4 mb-6">
@@ -153,7 +153,7 @@ const HeroSection = () => {
 												</svg>
 												<span className="font-semibold">200K+</span>
 											</div>
-											<p className="text-xs text-gray-500">Active Users</p>
+											<p className="text-xs text-gray-500">Usuários Ativos</p>
 										</div>
 									</div>
 
