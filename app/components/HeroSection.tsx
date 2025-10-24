@@ -10,19 +10,19 @@ const HeroSection = () => {
 
 			<div className="container mx-auto px-4 z-10">
 				<div className="text-center mb-8">
-					<span className="text-lg md:text-xl text-gray-400 mb-2 block">Hi, I&apos;m</span>
+					<span className="text-lg md:text-xl text-gray-400 mb-2 block">Oi, eu sou o</span>
 					<h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4">
 						<span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 text-transparent bg-clip-text bg-[size:200%] animate-gradient">
-							John Doe
+							Augusto Silveira
 						</span>
 					</h1>
 					<h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-300">
-						Mobile App Developer
+						Desenvolvedor de Software Senior
 					</h2>
 					<p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed px-4">
-						Crafting exceptional mobile experiences with
-						<span className="text-blue-400"> React Native</span>,<span className="text-purple-400"> Swift</span>, and
-						<span className="text-blue-400"> Flutter</span>
+						Criando experiências de mobile que os usuários amam com
+						<span className="text-blue-400"> React Native</span>,<span className="text-purple-400"> Swift</span>, e
+						<span className="text-blue-400"> Flutter</span>.
 					</p>
 				</div>
 
