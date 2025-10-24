@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Mobile Developer',
+	title: 'Augusto Silveira - Sr. Software Engineer',
 	description:
-		'Welcome to my portfolio! I am a passionate mobile developer crafting beautiful and performant apps for iOS and Android. Specializing in native and cross-platform development, I create engaging mobile experiences that users love.',
+		'Bem-vindo ao meu portifólio! Sou um desenvolvedor de software senior com mais de 10 anos de experiência em desenvolvimento de software. Especializando-se em desenvolvimento de software, criando experiências de mobile que os usuários amam.',
 	keywords: [
 		'Mobile Developer',
 		'iOS Developer',
@@ -31,31 +31,31 @@ export const metadata: Metadata = {
 		'App Store',
 		'Play Store',
 		'Mobile Architecture',
-		'[Your Name]',
+		'Augusto Silveira',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: 'Augusto Silveira' }],
+	creator: 'Augusto Silveira',
 	openGraph: {
-		title: '[Your Name] - Mobile Developer Portfolio',
-		description: 'Passionate mobile developer creating exceptional iOS and Android applications. Explore my projects and app development expertise.',
-		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		title: 'Augusto Silveira - Sr. Software Engineer Portfolio',
+		description: 'Desenvolvedor de software senior criando experiências de mobile que os usuários amam. Explore meus projetos e expertise em desenvolvimento de software.',
+		url: 'https://portifolio2-eight-rust.vercel.app',
+		siteName: 'Augusto Silveira - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Mobile Developer Portfolio',
+				alt: 'Augusto Silveira - Sr. Software Engineer Portfolio',
 			},
 		],
-		locale: 'en_US',
+		locale: 'pt_BR',
 		type: 'website',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Mobile Developer',
-		description: 'Passionate mobile developer creating exceptional iOS and Android applications. Explore my projects and app development expertise.',
-		creator: '@yourusername',
+		title: 'Augusto Silveira - Sr. Software Engineer',
+		description: 'Desenvolvedor de software senior criando experiências de mobile que os usuários amam. Explore meus projetos e expertise em desenvolvimento de software.',
+		creator: '@augustosilveira',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
